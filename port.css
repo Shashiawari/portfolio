@@ -1,0 +1,88 @@
+body{
+    background-color: #FBA1B7;
+}
+
+.navbar-brand{
+    color: aliceblue;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+
+#brand:hover{
+    transform: scale(1.2);
+    color:white;
+}
+.nav-link{
+    color: aliceblue;
+}
+.navbar-toggler{
+    border-color: white;
+    border-width: 4px;
+}
+.mo{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.mg{
+ margin-top: 200px;
+ margin-bottom: 300px;
+}
+.bg{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.card{
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.2);
+    border-color: black;
+    border-width: 5px;
+}
+.click{
+    text-decoration: none;
+    background-color: #FBA1B7;
+    border-radius: 20px;
+    color: white;
+}
+.click:hover{
+    color: black;
+}
+.work-done-container{
+    background-image:url("https://wallpapercave.com/wp/wp6547481.jpg");
+    background-size: cover;
+}
+.line{
+    color: white;
+}
+.work-num{
+    color: beige;
+}
+.work-name{
+    color: antiquewhite;
+}
+.bg1{
+background-color: white;
+}
+
+.foot{
+    text-decoration: none;
+    color: black;
+}
+.foot:hover{
+    color: #FBA1B7;
+}
+#icons{
+    font-size: 40px;
+    transition: all 0.3s;
+}
+#icons:hover{
+    transform: scale(1.5);
+}
