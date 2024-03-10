@@ -1,0 +1,49 @@
+<%- include('header') %>
+<div class="mainabout">
+    <form action="/about" method="post">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-3">
+                    <div class="box-input">
+                        <div class="border2">
+                            <input type="text" name="aboutname" class="input" placeholder="Enter Your name"
+                                >
+                        </div>
+                    </div>
+                </div>
+                <button class="ui-btn mx-2" type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="content">
+    <section class="container">
+        <div class="row p-2 mt-5 d-flex justify-content-center align-items-center">
+            <h2 class="text-center p-3 mb-5 center" style="line-height: 30px;font-family: 'Exo 2', sans-serif;">
+                Welcome to my portfolio <%= abname %>
+            </h2>
+            <div class="col-12 col-lg-6">
+                <div class="border1 p-1">
+                    <img src="https://res.cloudinary.com/dq7brjjnz/image/upload/v1691512859/GettyImages-1228408822_n7wlpw.webp"
+                        alt="" class="img-fluid" style="border-radius: 30px;">
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 mt-3">
+                <h2 style="font-family: 'Exo 2', sans-serif;"> Hello <%= abname %>,</h2>
+                <p class="mt-4">
+                    I'm SHASHI, a versatile web developer and coder with expertise in multiple programming languages,
+                    including Python, C, Java, and more. My passion lies in crafting interactive and visually appealing
+                    websites that not only function flawlessly but also engage and captivate users. What sets me apart
+                    is my ability to leverage no-code platforms to create stunning animations and designs, ensuring a
+                    seamless user experience.
+                </p>
+            </div>
+        </div>
+        <h2 class="text  center " style="line-height: 30px;font-family: 'Exo 2', sans-serif;">
+            
+            Looking forward to work with you <%= abname %>
+        </h2>
+    </section>
+    
+</div>
+    <%- include('footer') %>
